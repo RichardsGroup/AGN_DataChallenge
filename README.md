@@ -1,2 +1,2 @@
 # LSSTC AGN Data Challenge
-This repository hosts information for the LSSTC AGN Data Challenge (PI: Gordon Richards). 
+This repository hosts information for the LSSTC AGN Data Challenge (PI: Gordon Richards). A github page is available at [Here](https://richardsgroup.github.io/AGN_DataChallenge/).
