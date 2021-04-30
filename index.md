@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+---
+layout: default
+title: Home
+---
+## About
+This page contains the information for the _**LSSTC Enabling Science: AGN data challenge**_ as proposed by the LSST Active Galactic Nuclei (AGN) Science Collaboration in the Summer of 2020. The dataset used in this data challenge is based on a training set constructed to facilitate AGN classification in LSST. More information about this training set can be found at [Here](https://github.com/RichardsGroup/LSST_training).
 
-You can use the [editor on GitHub](https://github.com/RichardsGroup/AGN_DataChallenge/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## The DataSet
+The sources included in this dataset are coming from two main survey regions: _SDSS Stripe 82 (S82)_ and _XMM-LSS_. The S82 region has been redefined to include more coverage from the Dark Energy Survey (DES). The footprint for these two regions are:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### _Stripe 82_
 
-### Markdown
+| RA         | Dec           |
+| ---------- | ------------- |
+| (-60, -43] | (-1.25, 1.25) |
+| (-43, 0]   | (-2, 2)       |
+| (0, 45])   | (-7, 5)       |
+| (45, 60)   | (-1.25, 1.25) |
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### _XMM-LSS_
 
-```markdown
-Syntax highlighted code block
+| RA             | Dec            |
+| -------------- | -------------- |
+| [34.2, 37.125] | [-5.72, -3.87] |
 
-# Header 1
-## Header 2
-### Header 3
+## Data Available
+#### _Stripe 82_  (QSOs + variable stars)
+- True Labels: SDSS (spectra)
+- Photometry: SDSS (optical), UKIDSS (NIR), SpIES (MIR), GALEX (NUV and FUV)
+- Astrometry: Gaia (proper motion and parallax)
+- Time Domain: SDSS light curves
 
-- Bulleted
-- List
+## Data to be ingested
+#### _Stripe 82_
+- [ ] ZTF light curves
+- [ ] HSC-SSP photometry
+- [ ] DES photometry
+- [ ] ...
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RichardsGroup/AGN_DataChallenge/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### _XMM-LSS_
+- [ ] HSC-SSP photometry
+- [ ] DES photometry
+- [ ] X-ray (XMM-Newton)
 
 ### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+If you have any questions related to this data challenge, please do not hesitate to concat Gordon Richards (<gtr@physics.drexel.edu>) or Weixiang Yu (<wy73@drexel.edu>) for more technical questions.
