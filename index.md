@@ -14,7 +14,7 @@ The sources included in this dataset are coming from two main survey regions: _S
 | ---------- | ------------- |
 | (-60, -43] | (-1.25, 1.25) |
 | (-43, 0]   | (-2, 2)       |
-| (0, 45])   | (-7, 5)       |
+| (0, 45]    | (-7, 5)       |
 | (45, 60)   | (-1.25, 1.25) |
 
 #### _XMM-LSS_
@@ -24,17 +24,16 @@ The sources included in this dataset are coming from two main survey regions: _S
 | [34.2, 37.125] | [-5.72, -3.87] |
 
 ## Data Available
-#### _Stripe 82_  (QSOs + variable stars)
+#### _Stripe 82_  (QSOs, stars, galaxies)
 - True Labels: SDSS (spectra)
-- Photometry: SDSS (optical), UKIDSS (NIR), SpIES (MIR), GALEX (NUV and FUV)
-- Astrometry: Gaia (proper motion and parallax)
-- Time Domain: SDSS light curves
+- Photometry: GALEX (NUV and FUV), SDSS (optical), DES DR2 (optical), UKIDSS (NIR), SpIES (MIR)
+- Astrometry: Gaia (proper motion and parallax); NOIRLab Source Catalog (NSC) DR2 (proper motion)
+- Time Domain: SDSS light curves; NSC MAD variability metric
 
 ## Data to be ingested
 #### _Stripe 82_
 - [ ] ZTF light curves
-- [ ] HSC-SSP photometry
-- [ ] DES photometry
+- [x] DES photometry
 - [ ] ...
 
 #### _XMM-LSS_
