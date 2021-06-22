@@ -1,4 +1,5 @@
 ## Instructions
+Two ways to get all the needed packages installed:
 #### 1. Create a new conda environment
 ```sh
 bash setup.sh
