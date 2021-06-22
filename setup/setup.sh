@@ -9,7 +9,7 @@ conda env create --file env_sciserver.yml
 conda activate agn_dc
 
 # install new ipython kernel
-python -m ipykernel install --user --name lsst_train --display-name "AGN DC"
+python -m ipykernel install --user --name agn_dc --display-name "AGN DC"
 
 # source again to activate current shell and conda env
 source ~/.bashrc
