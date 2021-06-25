@@ -10,3 +10,5 @@ To participate in this data challenge using the data hosted on SciServer, below 
 6. Explore the 'getting_started' folder, play with example notebooks and take off from there
 
 If you are interested in how the dataset is built, please checkout the notebooks included in the 'docs' folder. 
+
+For those that aren't familiar with AGNs (or perhaps even astronomy), please see this DRAFT [AGN for Non-Astronomers](https://www.overleaf.com/read/vtnrpcprjdns) document.
