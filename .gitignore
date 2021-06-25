@@ -1,3 +1,7 @@
+# data dir
+data/*/*
+!data/*/README.md
+
 # jeyll
 Gemfile
 Gemfile.lock
