@@ -17,7 +17,7 @@ You will only see this directory after you successfully mount the shared volumne
 
 
 #### A few notebooks guiding you through this dataset:
-- [ReadTables.ipynb](ReadTables.ipynb): Showing you how to read in the tables.
+- [01_ReadTables.ipynb](01_ReadTables.ipynb): Showing you how to read in the tables.
 - A notebook exploring the dataset.
-- A notebook demonstrating how to (efficiently) interact with the raw light curves.
+- [03_ForcedSourceTable.ipynb](03_ForcedSourceTable.ipynb): Demonstrating how to interact with the raw light curves.
 - A notebook giving simple examples about how to perform classifications/regressions on the dataset.
