@@ -25,15 +25,15 @@ The sources included in this dataset are coming from two main survey regions: _S
 
 ## Data Available
 #### _Stripe 82_  (QSOs, stars, galaxies)
-- Labels: SDSS (spectra)
-- Photometry: GALEX (NUV and FUV), SDSS (optical), DES DR2 (optical), UKIDSS (NIR), Spitzer/SpIES (MIR)
-- Astrometry: Gaia (proper motion and parallax); NOIRLab Source Catalog (NSC) DR2 (proper motion)
-- Time Domain: SDSS light curves
+- __Labels__: SDSS (spectra)
+- __Photometry__: GALEX (NUV and FUV), SDSS (optical), DES DR2 (optical), UKIDSS (NIR), Spitzer/SpIES (MIR)
+- __Astrometry__: Gaia (proper motion and parallax); NOIRLab Source Catalog (NSC) DR2 (proper motion)
+- __Time Domain__: SDSS light curves
 
 #### _XMM-LSS_ (QSOs, stars, galaxies)
-- Labels: XMM-SERVS(X-ray), SDSS (spectra)
-- Photometry: GALEX (NUV and FUV), SDSS (optical), DES DR2 (optical), HSC-SSP (optical), VISTA (NIR), Spitzer/DeepDrill (MIR)
-- Astrometry: Gaia (proper motion and parallax); NOIRLab Source Catalog (NSC) DR2 (proper motion)
+- __Labels__: XMM-SERVS(X-ray), SDSS (spectra)
+- __Photometry__: GALEX (NUV and FUV), SDSS (optical), DES DR2 (optical), HSC-SSP (optical), VISTA (NIR), Spitzer/DeepDrill (MIR)
+- __Astrometry__: Gaia (proper motion and parallax); NOIRLab Source Catalog (NSC) DR2 (proper motion)
 
 ### Support or Contact
 If you have any questions related to this data challenge, please do not hesitate to concat Gordon Richards (<gtr@physics.drexel.edu>) or Weixiang Yu (<wy73@drexel.edu>) for more technical questions.
