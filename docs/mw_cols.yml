@@ -1,0 +1,61 @@
+s82mw_col_def:
+  objectId: Unique ID for each object same as the ones used in the Object able, used as index in the multiwavelength table
+  galex_id: GALEX ID for the matched object
+  src2galex: Distance from source to the GALEX match (arcsec)
+  fuv_mag: GALEX FUV magnitude (AB)
+  fuv_magerr: GALEX FUV magnitude error
+  nuv_mag: GALEX NUV magnitude (AB)
+  nuv_magerr: GALEX NUV magnitude error
+  spies_id: Unique ID assigned to each source in the two channel SpIES catalog
+  flux_aper_2_ch1: SpIES 3.6 microns flux (microjansky) extracted using a 1.9 arcsec aperture
+  fluxerr_aper_2_ch1: Error in 'flux_aper_2_ch1'
+  flux_auto_ch1: SpIES 3.6 microns flux value (microjansky) automatically extracted using SExtractor
+  fluxerr_auto_ch1: Error in 'flux_auto_ch1'
+  class_star_ch1: SpIES 3.6 micrometer morphology classification, > 0.5 for resolved source
+  flux_aper_2_ch2: SpIES 4.5 microns flux (microjansky) extracted using a 1.9 arcsec aperture
+  fluxerr_aper_2_ch2: Error in 'flux_aper_2_ch2'
+  flux_auto_ch2: SpIES 4.5 micrometer flux value (microjansky) automatically extracted using SExtractor
+  fluxerr_auto_ch2: Error in 'flux_auto_ch2'
+  class_star_ch2: SpIES 4.5 microns morphology classification, > 0.5 for resolved source
+  src2spies: Distance from source to the SpIES match (arcsec)
+  ukidss_id: Unique WSA ID of this merged source detection
+  src2ukidss: Distance from source to the UKIDSS match (arcsec)
+  ukidss_pstar: Probability that the source is a point source
+  ukidss_pgalaxy: Probability that the source is extended
+  a{band}: Galactic extinction correction in Y, J H, K
+  "{band}_apermag3": Default point source aperture mag (AB) in Y, J H, K
+  "{band}_apermag3err": Error in the associated Y, J H, K magnitude
+  
+xmmlssmw_col_def:
+  objectId: Unique ID for each object same as the ones used in the Object able, used as index in the multiwavelength table
+  xid: XMM-SERVS ID
+  src2x: Distance from the optical/IR counterparts to the X-ray sources
+  sb_flux(err): XMM-Newton soft band flux and error in erg/cm^2/s
+  hb_flux(err): XMM-Newton hard band flux and error in erg/cm^2/s 
+  fb_flux(err): XMM-Newton full band flux and error in erg/cm^2/s 
+  galex_id: GALEX ID for the matched object
+  src2galex: Distance from source to the GALEX match (arcsec)
+  fuv_mag: GALEX FUV magnitude (AB)
+  fuv_magerr: GALEX FUV magnitude error
+  nuv_mag: GALEX NUV magnitude (AB)
+  nuv_magerr: GALEX NUV magnitude error
+  hv_id: Unique ID for the matched source in the HSC/VISTA jointly processed catalog
+  src2hv: Distance from source to the HSC/VISTA match (arcsec)
+  vista_{band}_m_base_psfflux_mag(err): VISTA PSF mag (AB) and error in J, H and Ks bands
+  vista_{band}_m_base_psfflux_flag: Flag for the correpsonding PSF mag
+  vista_{band}_m_slot_modelflux_mag(err): VISTA cModel mag (AB) and error in J, H and Ks bands
+  vista_{band}_m_slot_modelflux_flag: Flag for the correpsonding cModel mag
+  vista_{band}_m_base_classificationextendedness_value: VISTA morphology measurement in J, H and Ks bands
+  vista_{band}_m_base_classificationextendedness_flag: Flag for the corresponding morphology measurement
+  dd_id: Unique ID assigned to each source in the two channel SpIES catalog
+  flux_aper_2_3p6: SpIES 3.6 microns flux (microjansky) extracted using a 1.9 arcsec aperture
+  fluxerr_aper_2_3p6: Error in 'flux_aper_2_3p6'
+  flux_auto_3p6: SpIES 3.6 microns flux value (microjansky) automatically extracted using SExtractor
+  fluxerr_auto_3p6: Error in 'flux_auto_3p6'
+  class_star_3p6: SpIES 3.6 micrometer morphology classification, > 0.5 for resolved source
+  flux_aper_2_4p5: SpIES 4.5 microns flux (microjansky) extracted using a 1.9 arcsec aperture
+  fluxerr_aper_2_4p5: Error in 'flux_aper_2_4p5'
+  flux_auto_4p5: SpIES 4.5 micrometer flux value (microjansky) automatically extracted using SExtractor
+  fluxerr_auto_4p5: Error in 'flux_auto_4p5'
+  class_star_4p5: SpIES 4.5 microns morphology classification, > 0.5 for resolved source
+  src2dd: Distance from source to the DeepDrill match (arcsec)

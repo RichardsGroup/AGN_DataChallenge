@@ -1,0 +1,66 @@
+lcNonPeriodic:
+    0: Amplitude -> half the difference between the maximum and the minimum magnitude
+    1: beyond1std -> percentage of points beyond one st. dev. from the weighted mean
+    2: flux_percentile_ratio_mid20 -> ratio of magnitude percentiles (60th–40th) over (95th–5th)
+    3: flux_percentile_ratio_mid35 -> ratio of magnitude percentiles (67.5th–32.5th) over (95th–5th)
+    4: flux_percentile_ratio_mid50 -> ratio of magnitude percentiles (75th–25th) over (95th–5th)
+    5: flux_percentile_ratio_mid65 -> ratio of magnitude percentiles (82.5th–17.5th) over (95th–5th)
+    6: flux_percentile_ratio_mid80 -> ratio of magnitude percentiles (90th–10th) over (95th–5th)
+    7: linear_trend -> slope of a linear fit to the light-curve magnitude
+    8: max_slope -> maximum absolute magnitude slope between two consecutive observations
+    9: median_absolute_deviation -> median discrepancy of the magnitudes from the median magnitude
+    10: median_buffer_range_percentage -> percentage of magnitudes within 10% of the amplitude from the median
+    11: pair_slope_trend -> percentage of all pairs of consecutive magnitude measurements that have positive slope
+    12: percent_amplitude -> largest percentage difference between either the max or min flux and the median
+    13: percent_difference_flux_percentile -> difference between the 5th and 95th flux percentiles, expressed as a percentage of the median value
+    14: QSO -> quasar variability metric in Butler & Bloom (2011), log(chi2_QSO)
+    15: non_QSO -> non-quasar variability metric in Butler & Bloom (2011), log(chi2_falseQSO)
+    16: skew -> skew of the magnitudes
+    17: small_kurtosis -> kurtosis of the magnitudes, reliable down to a small number of epochs
+    18: std -> st. dev. of the magnitudes
+    19: stetson_j -> robust covariance statistic between pairs of observations x,y whose uncertainties are dx,dy. If y is not given, calculates a robust variance for x.
+    20: stetson_k -> a robust kurtosis statistic
+    21: mean_variance -> flux variance divided by median
+    22: chi2_per_dof -> chi squared per degree of freedom for a constant model
+    23: excess_var -> excess variance, see 'arXiv:1710.10943'
+    24: normed_evar -> normalized excess variance, see 'arXiv:1202.3786'
+    25: rcs -> range of a cumulative sum, see 'arXiv:1101.3316'
+    26: von_N_ratio -> von Neumann ratio
+    27: drw_sigma -> the driving amplitude of a DRW, or beta_0 in CAR(1) 
+    28: drw_tau -> the characteristic damping timescale in DRW
+    
+    
+lcPeriodic:
+    0: alpha_1 from the CARMA(2,1)/DHO fit to the light curve (in flux)
+    1: alpha_2 from the CARMA(2,1)/DHO fit to the light curve (in flux)
+    2: beta_0 from the CARMA(2,1)/DHO fit to the light curve (in flux)
+    3: beta_1 from the CARMA(2,1)/DHO fit to the light curve (in flux)
+    4: freq1_harmonics_amplitude_0, see 'arXiv:1101.1959'
+    5: freq1_harmonics_amplitude_1, see 'arXiv:1101.1959'
+    6: freq1_harmonics_amplitude_2, see 'arXiv:1101.1959'
+    7: freq1_harmonics_amplitude_3, see 'arXiv:1101.1959'
+    8: freq1_harmonics_freq_0, see 'arXiv:1101.1959'
+    9: freq1_harmonics_rel_phase_1, see 'arXiv:1101.1959'
+    10: freq1_harmonics_rel_phase_2, see 'arXiv:1101.1959'
+    11: freq1_harmonics_rel_phase_3, see 'arXiv:1101.1959'
+    12: freq2_harmonics_amplitude_0, see 'arXiv:1101.1959'
+    13: freq2_harmonics_amplitude_1, see 'arXiv:1101.1959'
+    14: freq2_harmonics_amplitude_2, see 'arXiv:1101.1959'
+    15: freq2_harmonics_amplitude_3, see 'arXiv:1101.1959'
+    16: freq2_harmonics_freq_0, see 'arXiv:1101.1959'
+    17: freq2_harmonics_rel_phase_1, see 'arXiv:1101.1959'
+    18: freq2_harmonics_rel_phase_2, see 'arXiv:1101.1959'
+    19: freq2_harmonics_rel_phase_3, see 'arXiv:1101.1959'
+    20: freq3_harmonics_amplitude_0, see 'arXiv:1101.1959'
+    21: freq3_harmonics_amplitude_1, see 'arXiv:1101.1959'
+    22: freq3_harmonics_amplitude_2, see 'arXiv:1101.1959'
+    23: freq3_harmonics_amplitude_3, see 'arXiv:1101.1959'
+    24: freq3_harmonics_freq_0, see 'arXiv:1101.1959'
+    25: freq3_harmonics_rel_phase_1, see 'arXiv:1101.1959'
+    26: freq3_harmonics_rel_phase_2, see 'arXiv:1101.1959'
+    27: freq3_harmonics_rel_phase_3, see 'arXiv:1101.1959'
+    28: freq_signif, see 'arXiv:1101.1959'
+    29: freq_signif_ratio_21, see 'arXiv:1101.1959'
+    30: freq_signif_ratio_31, see 'arXiv:1101.1959'
+    31: freq_varrat, see 'arXiv:1101.1959'
+    32: freq_y_offset, see 'arXiv:1101.1959'
