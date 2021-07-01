@@ -34,8 +34,15 @@ The objects included in the release dataset are drawn from two main survey field
 
 <br>
 
-#### Some cavaets:
+#### Some caveats:
 1. Not all objects in the `Object` table have labels!
 1. The labels are not 100% reliable! However the labels for the objects that have a spectroscopic redshift (`z`) are more reliable. 
 2. ~ 1% of the objects don't have optical fluxes (selected using multi-wavelength data).
-3. Bad fits are included for the CARMA(1, 0) and CARMA(2,1) parameters. We are limited by the tempoal sampling and the S/N of the existing data!
+3. Bad fits are included for the CARMA(1, 0) and CARMA(2,1) parameters. We are limited by the temporal sampling and the S/N of the existing data!
+
+<br>
+
+### Data Contributors:
+- QingLing Ni:  [XMM-SERVES](https://academic.oup.com/mnras/article-abstract/478/2/2132/4985846?redirectedFrom=fulltext)
+- Raphael Shirley & Manda Banerji: HSC/VISTA
+- Mathew Temple: UKIDSS
