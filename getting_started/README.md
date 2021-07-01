@@ -11,9 +11,12 @@ You will only see this directory after you successfully mount the shared volumne
 - SourceTable.parquet: The master `Source` table (Stripe 82 + XMM-LSS)
 - s82ObjectTable.parquet: The Stripe 82 `Object` table
 - s82SourceTable.parquet: The Stripe 82 `Source` table
+- s82MultiWavelengthTable.parquet: A table of multiwavelength data for the objects included in the Stripe 82 `Object` table
 - xmmlssObjectTable.parquet: The XMM-LSS `Object` table
 - xmmlssSourceTable.parquet: The XMM-LSS `Source` table
-- lc_feats.yml: A dictionary describing the various features derived from light curves. 
+- xmmlssMultiWavelengthTable.parquet: A table of multiwavelength data for the objects included in the XMM-LSS `Object` table
+- lc_feats.yml: A dictionary describing the various features derived from light curves. You can also find this file in the 'docs' folder.
+- mv_cols.yml: A dictionary definitions for the columns in the multiwavelength table(s). You can also find this file in the 'docs' folder.
 
 
 #### A few notebooks guiding you through this dataset:
