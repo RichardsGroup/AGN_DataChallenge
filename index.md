@@ -3,10 +3,10 @@ layout: default
 title: Home
 ---
 ## About
-This page contains the information for the _**LSSTC Enabling Science: AGN data challenge**_ as proposed by the LSST Active Galactic Nuclei (AGN) Science Collaboration in the Summer of 2020. The dataset used in this data challenge is based on a training set constructed to facilitate AGN classification in LSST. More information about this training set can be found at [Here](https://github.com/RichardsGroup/LSST_training).
+This page contains the information for the _**LSSTC Enabling Science: AGN data challenge**_ as proposed by the LSST Active Galactic Nuclei (AGN) Science Collaboration in the Summer of 2020. The dataset that will be released in this data challenge is drawn heavily from a [training set](https://github.com/RichardsGroup/LSST_training) constructed to facilitate AGN classification in LSST. 
 
 ## The DataSet
-The sources included in this dataset are coming from two main survey regions: _SDSS Stripe 82 (S82)_ and _XMM-LSS_. The S82 region has been redefined to include more coverage from the Dark Energy Survey (DES). The footprint for these two regions are:
+The sources included in this dataset are coming from two main survey regions: _SDSS Stripe 82 (S82)_ and _XMM-LSS_. The S82 region has been redefined to maximize the overlaps with the Dark Energy Survey (DES). The footprint for these two regions are:
 
 #### _Stripe 82_
 
@@ -25,21 +25,15 @@ The sources included in this dataset are coming from two main survey regions: _S
 
 ## Data Available
 #### _Stripe 82_  (QSOs, stars, galaxies)
-- True Labels: SDSS (spectra)
-- Photometry: GALEX (NUV and FUV), SDSS (optical), DES DR2 (optical), UKIDSS (NIR), SpIES (MIR)
+- Labels: SDSS (spectra)
+- Photometry: GALEX (NUV and FUV), SDSS (optical), DES DR2 (optical), UKIDSS (NIR), Spitzer/SpIES (MIR)
 - Astrometry: Gaia (proper motion and parallax); NOIRLab Source Catalog (NSC) DR2 (proper motion)
-- Time Domain: SDSS light curves; NSC MAD variability metric
+- Time Domain: SDSS light curves
 
-## Data to be ingested
-#### _Stripe 82_
-- [ ] ZTF light curves
-- [x] DES photometry
-- [ ] ...
-
-#### _XMM-LSS_
-- [ ] HSC-SSP photometry
-- [ ] DES photometry
-- [ ] X-ray (XMM-Newton)
+#### _XMM-LSS_ (QSOs, stars, galaxies)
+- Labels: XMM-SERVS(X-ray), SDSS (spectra)
+- Photometry: GALEX (NUV and FUV), SDSS (optical), DES DR2 (optical), HSC-SSP (optical), VISTA (NIR), Spitzer/DeepDrill (MIR)
+- Astrometry: Gaia (proper motion and parallax); NOIRLab Source Catalog (NSC) DR2 (proper motion)
 
 ### Support or Contact
 If you have any questions related to this data challenge, please do not hesitate to concat Gordon Richards (<gtr@physics.drexel.edu>) or Weixiang Yu (<wy73@drexel.edu>) for more technical questions.
