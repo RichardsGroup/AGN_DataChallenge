@@ -1,5 +1,5 @@
 # LSSTC AGN Data Challenge
-This repository hosts information for the LSSTC AGN Data Challenge 2021 (PI: Gordon Richards). A github page is available at [here](https://richardsgroup.github.io/AGN_DataChallenge/).
+This repository hosts information for the LSSTC AGN Data Challenge 2021 (PI: Gordon Richards). A github page is available at [here](https://richardsgroup.github.io/AGN_DataChallenge/). More (basic) information about this data challenge and the released dataset can be found at [About.md](About.md).
 
 The dataset released for this data challenge is hosted on [SciServer](https://www.sciserver.org/). To participate in this data challenge using the released dataset, please follow the steps listed below:
 1. Set up an account on SciServer at [here](https://www.sciserver.org/)
