@@ -9,6 +9,9 @@ The objects included in the release dataset are drawn from two main survey field
 - Total number of objects (both combined) in the `Object` table: ~440,000
 - Total number epochs in the `ForcedSource` table: ~5M
 
+<img src='docs/figs/dc_footprint.jpeg' style='width:1200px' img>
+<br>
+
 #### -> __Stripe 82__
 
 |               | Agn/Qso   | highZQso   | Gal       |  Stars     |
@@ -30,19 +33,12 @@ The objects included in the release dataset are drawn from two main survey field
 | VISTA/VIDEO   | ~3.5k     | ~3.5k     | ~370       |
 | Spitzer       | ~3.5k     | ~3.5k     | ~350       |
 
->__Note:__ HighZQso are not limited to the Stripe 82 region. 
+__Note:__ HighZQso are not limited to the Stripe 82 region. 
 
 <br>
 
-#### Some caveats:
+#### Some cavaets:
 1. Not all objects in the `Object` table have labels!
 1. The labels are not 100% reliable! However the labels for the objects that have a spectroscopic redshift (`z`) are more reliable. 
 2. ~ 1% of the objects don't have optical fluxes (selected using multi-wavelength data).
-3. Bad fits are included for the CARMA(1, 0) and CARMA(2,1) parameters. We are limited by the temporal sampling and the S/N of the existing data!
-
-<br>
-
-### Data Contributors:
-- QingLing Ni:  [XMM-SERVES](https://academic.oup.com/mnras/article-abstract/478/2/2132/4985846?redirectedFrom=fulltext)
-- Raphael Shirley & Manda Banerji: HSC/VISTA
-- Mathew Temple: UKIDSS
+3. Bad fits are included for the CARMA(1, 0) and CARMA(2,1) parameters. We are limited by the tempoal sampling and the S/N of the existing data!
