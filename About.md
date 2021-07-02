@@ -48,7 +48,7 @@ __Note:__ HighZQso are not limited to the Stripe 82 region.
 
 
 ### Data Contributors:
-Qingling Ni: [XMM-SERVS](https://personal.psu.edu/wnb3/xmmservs/xmmservs.html)
-Matthew Temple: UKIDSS
-Raphael Shirley & Mandra Banerji: HSC/VISTA jointly processed catalog
-Veronique Buat: Herschel
+- Qingling Ni: [XMM-SERVS](https://personal.psu.edu/wnb3/xmmservs/xmmservs.html)
+- Matthew Temple: UKIDSS
+- Raphael Shirley & Mandra Banerji: HSC/VISTA jointly processed catalog
+- Veronique Buat: Herschel
