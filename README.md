@@ -4,7 +4,7 @@ This repository hosts information for the LSSTC AGN Data Challenge 2021 (PI: Gor
 The dataset released for this data challenge is hosted on SciServer. To participate in this data challenge using the released dataset, please follow the steps listed below:
 1. Set up an account on [SciServer](https://www.sciserver.org/)
 2. Send us (Weixiang Yu/Gordon Richards) your SciServer username so that we can add you to the data challenge SciServer group for access to the data
-3. Accept our invitation, see [here](https://github.com/RichardsGroup/LSST_training/blob/master/Setup/sciserver.pdf) for an example invitation
+3. Accept our invitation, see [here](setup/sciserver.pdf) for an example invitation
 4. Get familiar with how to run a container (and correctly mount the shared volume) on SciServer, see [here](https://github.com/RichardsGroup/LSST_training/blob/master/Setup/Container.ipynb)
 5. Set up the conda environment following the suggestions provided in the [setup](setup) folder
 6. Explore the [getting_started](getting_started) folder, play with example notebooks and take off from there
