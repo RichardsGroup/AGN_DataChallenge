@@ -30,13 +30,13 @@ The sources included in this dataset are coming from two main survey regions: **
 ## Data Available
 #### _Stripe 82_  (QSOs, stars, galaxies)
 - __Labels__: SDSS (spectra)
-- __Photometry__: GALEX (NUV and FUV), SDSS (optical), DES DR2 (optical), UKIDSS (NIR), Spitzer/SpIES (MIR)
+- __Photometry__: GALEX (NUV and FUV), SDSS (optical), DES DR2 (optical), UKIDSS (NIR), Spitzer/SpIES (MIR), Herschel (FIR), FIRST (Radio)
 - __Astrometry__: Gaia (proper motion and parallax); NOIRLab Source Catalog (NSC) DR2 (proper motion)
 - __Time Domain__: SDSS light curves
 
 #### _XMM-LSS_ (QSOs, stars, galaxies)
 - __Labels__: XMM-SERVS(X-ray), SDSS (spectra)
-- __Photometry__: GALEX (NUV and FUV), SDSS (optical), DES DR2 (optical), HSC-SSP (optical), VISTA (NIR), Spitzer/DeepDrill (MIR)
+- __Photometry__: GALEX (NUV and FUV), SDSS (optical), DES DR2 (optical), HSC-SSP (optical), VISTA (NIR), Spitzer/DeepDrill (MIR), Herschel (FIR)
 - __Astrometry__: Gaia (proper motion and parallax); NOIRLab Source Catalog (NSC) DR2 (proper motion)
 
 ### Support or Contact
