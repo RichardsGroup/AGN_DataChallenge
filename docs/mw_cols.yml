@@ -25,6 +25,19 @@ s82mw_col_def:
   a{band}: Galactic extinction correction in Y, J H, K
   "{band}_apermag3": Default point source aperture mag (AB) in Y, J H, K
   "{band}_apermag3err": Error in the associated Y, J H, K magnitude
+  help_id: Unique ID of the Herschel Extragalactic Legacy Project (HELP)
+  src2help: Distance from source to the Herschel/HELP match (arcsec)
+  f_spire_{wavelength}: Herschel SPIRE flux density (microjansky) at wavelength of 250 mircrons, 350 mircrons or 500 microns
+  ferr_spire_{wavelength}_u: Flux density (84th percentile), in microjansky, at wavelength of 250 mircrons, 350 mircrons or 500 microns
+  ferr_spire_{wavelength}_l: Flux density (16th percentile), in microjansky, at wavelength of 250 mircrons, 350 mircrons or 500 microns
+  src2first: Distance from source to the FIRST match (arcsec)
+  sideprob: Probability that the mathced FIRST source is spurious
+  fpeak(int): FIRST peak(integrated) flux density (mJy)
+  rms: FIRST local noise estimate at the source position (mJy)
+  major(minor): FIRST major(minor) axis (arcsec)
+  posang: FIRST position angle in arcsec
+  fitted_major(minor): FIRST fitted major(minor) axis (arcsec)
+  fitted_posang: FIRST fitted position angle in arcsec
   
 xmmlssmw_col_def:
   objectId: Unique ID for each object same as the ones used in the Object able, used as index in the multiwavelength table
@@ -59,3 +72,11 @@ xmmlssmw_col_def:
   fluxerr_auto_4p5: Error in 'flux_auto_4p5'
   class_star_4p5: SpIES 4.5 microns morphology classification, > 0.5 for resolved source
   src2dd: Distance from source to the DeepDrill match (arcsec)
+  help_id: Unique ID of the Herschel Extragalactic Legacy Project (HELP)
+  src2help: Distance from source to the Herschel/HELP match (arcsec)
+  f_pacs_{wavelength}: Herschel PACS flux density (microjansky) at wavelength of 100 mircrons or 160 microns
+  ferr_spire_{wavelength}_u: Flux density (84th percentile), in microjansky, at wavelength of 100 mircrons or 160 microns
+  ferr_spire_{wavelength}_l: Flux density (16th percentile), in microjansky, at wavelength of 100 mircrons or 160 microns
+  f_spire_{wavelength}: Herschel SPIRE flux density (microjansky) at wavelength of 250 mircrons, 350 mircrons or 500 microns
+  ferr_spire_{wavelength}_u: Flux density (84th percentile), in microjansky, at wavelength of 250 mircrons, 350 mircrons or 500 microns
+  ferr_spire_{wavelength}_l: Flux density (16th percentile), in microjansky, at wavelength of 250 mircrons, 350 mircrons or 500 microns

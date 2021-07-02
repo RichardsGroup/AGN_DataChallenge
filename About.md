@@ -21,6 +21,8 @@ The objects included in the release dataset are drawn from two main survey field
 | GALEX         | ~36k      | ~10        | ~45k      | ~38k       |
 | UKIDSS        | ~36k      | ~30        | ~87k      | ~92k       |
 | Spitzer       | ~12k      | ~20        | ~27k      | ~30k       |
+| Herschel      | ~2.5k     | ~1         | ~39k      | ~12k       |
+| FIRST         | ~2k       | ~50        | ~43k      | ~250       |
 
 
 #### -> __XMM-LSS__
@@ -32,6 +34,7 @@ The objects included in the release dataset are drawn from two main survey field
 | GALEX         | ~400      | ~300      | ~100       |
 | VISTA/VIDEO   | ~3.5k     | ~3.5k     | ~370       |
 | Spitzer       | ~3.5k     | ~3.5k     | ~350       |
+| Herschel      | ~1.5k     | ~1.5k     | ~50        |
 
 __Note:__ HighZQso are not limited to the Stripe 82 region. 
 
@@ -42,3 +45,10 @@ __Note:__ HighZQso are not limited to the Stripe 82 region.
 1. The labels are not 100% reliable! However the labels for the objects that have a spectroscopic redshift (`z`) are more reliable. 
 2. ~ 1% of the objects don't have optical fluxes (selected using multi-wavelength data).
 3. Bad fits are included for the CARMA(1, 0) and CARMA(2,1) parameters. We are limited by the temporal sampling and the S/N of the existing data!
+
+
+### Data Contributors:
+Qingling Ni: [XMM-SERVS](https://personal.psu.edu/wnb3/xmmservs/xmmservs.html)
+Matthew Temple: UKIDSS
+Raphael Shirley & Mandra Banerji: HSC/VISTA jointly processed catalog
+Veronique Buat: Herschel
