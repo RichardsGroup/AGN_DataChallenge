@@ -2,7 +2,7 @@
 This data challenge is funded by the __LSSTC Enabling Science Program__ (for prizes). As stated in the initial proposal, this data challenge aims at "motivating planning for AGN science with the Rubin Observatory Legacy Survey of Space and Time (LSST), focusing on 1) parameterization of AGN light curves, 2) AGN selection, and 3) AGN photo-z." 
 
 ### The Dataset
-The dataset released in this data challenge are pulled from different source (public archive) and put together to mimic the future LSST data release catalogs as much as possible. The column names and units used for different measurements (e.g., flux) also follow that listed in the LSST Data Products documents ([LSE-163](https://docushare.lsst.org/docushare/dsweb/Get/LSE-163)), see Section 4.3 for more details on the LSST data releaes catalogs. 
+The dataset released in this data challenge are pulled from different source (public archive) and put together to mimic the future LSST data release catalogs as much as possible. The column names and units used for different measurements (e.g., flux) also follow that listed in the LSST Data Products documents ([LSE-163](https://github.com/lsst/LSE-163)), see Section 4.3 for more details on the LSST data releaes catalogs. 
 
 The objects included in the release dataset are drawn from two main survey fields, an extended Stripe 82 area and the XMM-LSS region, consist of __stars__, __quasars/AGNs__ and __galaxies__. The acutal class labels are: `Star`, `Agn`, `Qso` (for quasar), `highZQso` (for QSO high redshift) and `Gal` (for galaxy). Below are some basic statistics of this dataset. 
 

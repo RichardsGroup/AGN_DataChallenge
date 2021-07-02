@@ -7,7 +7,7 @@ The dataset released for this data challenge is hosted on SciServer. To particip
 3. Accept our invitation, see [here](https://github.com/RichardsGroup/LSST_training/blob/master/Setup/sciserver.pdf) for an example invitation
 4. Get familiar with how to run a container (and correctly mount the shared volume) on SciServer, see [here](https://github.com/RichardsGroup/LSST_training/blob/master/Setup/Container.ipynb)
 5. Set up the conda environment following the suggestions provided in the [setup](setup) folder
-6. Explore the [getting_started(getting_started) folder, play with example notebooks and take off from there
+6. Explore the [getting_started](getting_started) folder, play with example notebooks and take off from there
 
 If you want to learn more about how this dataset is built, serveral notebooks explaining the data construction are included in the [docs](docs) folder.
 
