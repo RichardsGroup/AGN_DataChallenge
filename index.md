@@ -8,7 +8,7 @@ This page contains the information for the _**LSSTC Enabling Science: AGN data c
 <!-- The dataset that will be released in this data challenge is drawn heavily from a [training set](https://github.com/RichardsGroup/LSST_training) constructed to facilitate AGN classification in LSST.  -->
 
 ## The DataSet
-The sources included in this dataset are coming from two main survey regions: _SDSS Stripe 82 (S82)_ and _XMM-LSS_. The S82 region has been redefined to maximize the overlaps with the Dark Energy Survey (DES). The footprint for these two regions are:
+The sources included in this dataset are coming from two main survey regions: **SDSS Stripe 82 (S82)** and **XMM-LSS**. The S82 region has been redefined to maximize the overlaps with the Dark Energy Survey (DES). The footprint for these two regions are:
 
 ![Footprint](assets/dc_footprint.jpeg)
 
