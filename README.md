@@ -6,9 +6,9 @@ The dataset released for this data challenge is hosted on SciServer. To particip
 2. Send us (Weixiang Yu/Gordon Richards) your SciServer username so that we can add you to the data challenge SciServer group for access to the data
 3. Accept our invitation, see [here](https://github.com/RichardsGroup/LSST_training/blob/master/Setup/sciserver.pdf) for an example invitation
 4. Get familiar with how to run a container (and correctly mount the shared volume) on SciServer, see [here](https://github.com/RichardsGroup/LSST_training/blob/master/Setup/Container.ipynb)
-5. Set up the conda environment following the suggestions provided in the 'setup' folder
-6. Explore the 'getting_started' folder, play with example notebooks and take off from there
+5. Set up the conda environment following the suggestions provided in the [setup](setup) folder
+6. Explore the [getting_started(getting_started) folder, play with example notebooks and take off from there
 
-If you want to learn more about how this dataset is built, serveral notebooks explaining the data construction are included in the 'docs' folder.
+If you want to learn more about how this dataset is built, serveral notebooks explaining the data construction are included in the [docs](docs) folder.
 
 For those that aren't familiar with AGNs (or perhaps even astronomy), please see this DRAFT [AGN for Non-Astronomers](https://www.overleaf.com/read/vtnrpcprjdns) document.
