@@ -3,10 +3,14 @@ layout: default
 title: Home
 ---
 ## About
-This page contains the information for the _**LSSTC Enabling Science: AGN data challenge**_ as proposed by the LSST Active Galactic Nuclei (AGN) Science Collaboration in the Summer of 2020. The dataset that will be released in this data challenge is drawn heavily from a [training set](https://github.com/RichardsGroup/LSST_training) constructed to facilitate AGN classification in LSST. 
+This page contains the information for the _**LSSTC Enabling Science: AGN data challenge**_ as proposed by the LSST Active Galactic Nuclei (AGN) Science Collaboration in the Summer of 2020. 
+
+<!-- The dataset that will be released in this data challenge is drawn heavily from a [training set](https://github.com/RichardsGroup/LSST_training) constructed to facilitate AGN classification in LSST.  -->
 
 ## The DataSet
 The sources included in this dataset are coming from two main survey regions: _SDSS Stripe 82 (S82)_ and _XMM-LSS_. The S82 region has been redefined to maximize the overlaps with the Dark Energy Survey (DES). The footprint for these two regions are:
+
+![Footprint](assets/dc_footprint.jpeg)
 
 #### _Stripe 82_
 
@@ -36,4 +40,4 @@ The sources included in this dataset are coming from two main survey regions: _S
 - __Astrometry__: Gaia (proper motion and parallax); NOIRLab Source Catalog (NSC) DR2 (proper motion)
 
 ### Support or Contact
-If you have any questions related to this data challenge, please do not hesitate to concat Gordon Richards (<gtr@physics.drexel.edu>) or Weixiang Yu (<wy73@drexel.edu>) for more technical questions.
+If you have any questions related to this data challenge, please do not hesitate to contact Gordon Richards (<gtr@physics.drexel.edu>) or Weixiang Yu (<wy73@drexel.edu>) for more technical questions.
