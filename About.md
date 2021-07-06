@@ -4,7 +4,7 @@ This data challenge is funded by the __LSSTC Enabling Science Program__ (for pri
 ### The Dataset
 The dataset released in this data challenge are pulled from different source (public archive) and put together to mimic the future LSST data release catalogs as much as possible. The column names and units used for different measurements (e.g., flux) also follow that listed in the LSST Data Products documents ([LSE-163](https://github.com/lsst/LSE-163)), see Section 4.3 for more details on the LSST data releaes catalogs. 
 
-The objects included in the release dataset are drawn from two main survey fields, an extended Stripe 82 area and the XMM-LSS region, consist of __stars__, __quasars/AGNs__ and __galaxies__. The acutal class labels are: `Star`, `Agn` (for AGN), `Qso` (for quasar), `highZQso` (for QSOs at high redshift) and `Gal` (for galaxy). 
+The objects included in the release dataset are drawn from two main survey fields, an extended Stripe 82 area and the XMM-LSS region, consist of __stars__, __quasars/AGNs__ and __galaxies__. The acutal class labels are: `Star`, `Gal` (for galaxy), `Qso` (for quasar), `highZQso` (for QSOs at high redshift) `Agn` (for AGN).
 
 - Total number of objects (both combined) in the `Object` table: ~440,000
 - Total number epochs in the `ForcedSource` table: ~5M
@@ -42,7 +42,7 @@ __Note:__ HighZQso are not limited to the Stripe 82 region.
 
 #### *A* __Note__ *on the class labels:*
 The class labels are assigned using the following methods:
-- `Star`: Spectroscopically confirmed stars + variable point sources (above a certain threshold) with any known AGNs/quasars removed.
+- `Star`: Spectroscopically confirmed stars + variable point sources in the SDSS Stripe 82 region of low stellar density (-45 degree < RA < 45 degree) modulo any known AGNs/quasars
 - `Gal`: Spectroscopically confirmed galaxies
 - `Qso`: Spectroscopically confirmed quasars
 - `highZQso`: A separate catalog of high redshift (z > 4.5) quasars
