@@ -40,12 +40,12 @@ __Note:__ HighZQso are not limited to the Stripe 82 region.
 
 <br>
 
-#### *A Note on the class labels:*
+#### *A* __Note__ *on the class labels:*
 The class labels are assigned using the following methods:
-- `Star`: Spectrocopically confirmed stars + variable point sources (above a certain threshold) with any known AGNs/quasars removed.
-- `Gal`: Spectrocopically confirmed galaxies
-- `Qso`: Spectrocopically confirmed quasars
-- `highZQso`: A seperate catalog of high redshift (z > 4.5) quasars
+- `Star`: Spectroscopically confirmed stars + variable point sources (above a certain threshold) with any known AGNs/quasars removed.
+- `Gal`: Spectroscopically confirmed galaxies
+- `Qso`: Spectroscopically confirmed quasars
+- `highZQso`: A separate catalog of high redshift (z > 4.5) quasars
 - `Agn`: X-ray classified AGNs in the XMM-LSS region
 
 #### Some cavaets:
