@@ -4,6 +4,7 @@ Two ways to get all the needed packages installed:
 Run the following command within this folder to create a new conda environment called `agn_dc`:
 ```sh
 bash setup.sh
+conda activate agn_dc
 ```
 
 #### 2. Using the built-in `py38` environment
