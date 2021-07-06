@@ -42,7 +42,7 @@ __Note:__ HighZQso are not limited to the Stripe 82 region.
 
 #### *A* __Note__ *on the class labels:*
 The class labels are assigned using the following methods:
-- `Star`: Spectroscopically confirmed stars + variable point sources in the SDSS Stripe 82 region of low stellar density (-45 degree < RA < 45 degree) modulo any known AGNs/quasars
+- `Star`: Spectroscopically confirmed stars + variable point sources in the SDSS Stripe 82 region with high (e)BOSS spectroscopic coverage and modulo any spectroscopically confirmed AGNs/quasars
 - `Gal`: Spectroscopically confirmed galaxies
 - `Qso`: Spectroscopically confirmed quasars
 - `highZQso`: A separate catalog of high redshift (z > 4.5) quasars
