@@ -1,7 +1,7 @@
 ## Instructions
 Two ways to get all the needed packages installed:
 #### 1. Create a new conda environment
-Run the following command within this folder to create a new conda environment called 'agn_dc':
+Run the following command within this folder to create a new conda environment called `agn_dc`:
 ```sh
 bash setup.sh
 ```
