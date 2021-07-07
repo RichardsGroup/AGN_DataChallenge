@@ -16,7 +16,7 @@ The objects included in the release dataset are drawn from two main survey field
 
 |               | Agn/Qso   | highZQso   | Gal       |  Stars     |
 | --------------| --------- | ---------- | ----------| ---------- |
-| Lable         | ~73k      | ~1k        | ~213k     | ~106k      |
+| Label         | ~73k      | ~1k        | ~213k     | ~106k      |
 | Light Curve   | ~33k      | ~60        | ~67k      | ~87k       |
 | GALEX         | ~36k      | ~10        | ~45k      | ~38k       |
 | UKIDSS        | ~36k      | ~30        | ~87k      | ~92k       |
@@ -29,7 +29,7 @@ The objects included in the release dataset are drawn from two main survey field
 
 |               | Agn/Qso   | Gal       |  Stars     |
 | --------------| --------- | ----------| ---------- |
-| Lable         | ~4k       | ~4k       | ~400       |
+| Label         | ~4k       | ~4k       | ~400       |
 | XMM-Newton    | ~4k       | N/A       | N/A        |
 | GALEX         | ~400      | ~300      | ~100       |
 | VISTA/VIDEO   | ~3.5k     | ~3.5k     | ~370       |
