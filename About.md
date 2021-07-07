@@ -14,7 +14,7 @@ The objects included in the release dataset are drawn from two main survey field
 
 #### -> __Stripe 82__
 
-|               | Agn/Qso   | highZQso   | Gal       |  Stars     |
+|               | Agn/Qso   | highZQso   | Gal       |  Star      |
 | --------------| --------- | ---------- | ----------| ---------- |
 | Label         | ~73k      | ~1k        | ~213k     | ~106k      |
 | Light Curve   | ~33k      | ~60        | ~67k      | ~87k       |
@@ -27,7 +27,7 @@ The objects included in the release dataset are drawn from two main survey field
 
 #### -> __XMM-LSS__
 
-|               | Agn/Qso   | Gal       |  Stars     |
+|               | Agn/Qso   | Gal       |  Star      |
 | --------------| --------- | ----------| ---------- |
 | Label         | ~4k       | ~4k       | ~400       |
 | XMM-Newton    | ~4k       | N/A       | N/A        |
