@@ -17,6 +17,7 @@ You will only see this directory after you successfully mount the shared volumne
 - xmmlssMultiWavelengthTable.parquet: A table of multiwavelength data for the objects included in the XMM-LSS `Object` table
 - lc_feats.yml: A dictionary describing the various features derived from light curves. You can also find this file in the 'docs' folder.
 - mv_cols.yml: A dictionary definitions for the columns in the multiwavelength table(s). You can also find this file in the 'docs' folder.
+- **cutouts/**: The folder hosting the pre-generated thumbnails/cutouts. 
 
 
 #### A few notebooks guiding you through this dataset:
@@ -24,3 +25,4 @@ You will only see this directory after you successfully mount the shared volumne
 - [02_ObjectTable.ipynb](02_ObjectTable.ipynb): Exploratory data analysis with the `Object` table
 - [03_ForcedSourceTable.ipynb](03_ForcedSourceTable.ipynb): Demonstrating how to interact with the raw light curves.
 - [04_ML_Example.ipynb](04_ML_Example.ipynb): Simple examples about how to perform classifications/regressions on the provided dataset.
+- [05_Cutout.ipynb](05_Cutout.ipynb): Showing you how to access the pre-generated thumbnails/cutouts for objects in the `Object` table (if available).
