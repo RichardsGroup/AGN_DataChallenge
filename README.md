@@ -1,9 +1,9 @@
 # LSSTC AGN Data Challenge
-**Sep-9, 2021**
+**Sep-9-2021**
 
 The submission deadline has been extended to **_Oct-15-2021_**.! Stay tuned for an update on the submission procedure.
 
-**Aug-31, 2021**
+**Aug-31-2021**
 
 - Added thumbnails/cutouts (from SDSS DR16) for all objects in the `Object` table, ~130 objects have no matched thumbnails/cutouts. 
 - A new example notebook ([link](getting_started/05_Cutout.ipynb)) is added to show how to access the pre-generated thumbnails/cutouts.
