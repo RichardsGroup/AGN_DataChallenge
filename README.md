@@ -1,4 +1,8 @@
 # LSSTC AGN Data Challenge
+**Sep-9, 2021**
+
+The submission deadline has been extended to **_Oct-15-2021_**.! Stay tuned for an update on the submission procedure.
+
 **Aug-31, 2021**
 
 - Added thumbnails/cutouts (from SDSS DR16) for all objects in the `Object` table, ~130 objects have no matched thumbnails/cutouts. 
