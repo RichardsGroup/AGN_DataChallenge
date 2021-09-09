@@ -2,6 +2,17 @@
 layout: default
 title: Home
 ---
+## **Recent Updates**
+**Sep-9-2021**
+
+The submission deadline has been extended to **_Oct-15-2021_**.! Stay tuned for the submission procedure.
+
+**Aug-31-2021**
+
+Added thumbnails/cutouts (from SDSS DR16) for all objects in the `Object` table, except for ~130 objects that have no matching thumbnails/cutouts. 
+
+---
+
 ## About
 This page contains the information for the _**LSSTC Enabling Science: AGN data challenge**_ as proposed by the LSST Active Galactic Nuclei (AGN) Science Collaboration in the Summer of 2020. 
 
