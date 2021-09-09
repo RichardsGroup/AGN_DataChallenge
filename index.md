@@ -5,7 +5,7 @@ title: Home
 ## **Recent Updates**
 **Sep-9-2021**
 
-The submission deadline has been extended to **_Oct-15-2021_**.! Stay tuned for the submission procedure.
+The submission deadline has been extended to **_Oct-15-2021_**! Stay tuned for the submission procedure.
 
 **Aug-31-2021**
 
