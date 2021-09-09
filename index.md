@@ -43,7 +43,7 @@ The sources included in this dataset are coming from two main survey regions: **
 - __Labels__: SDSS (spectra)
 - __Photometry__: GALEX (NUV and FUV), SDSS (optical), DES DR2 (optical), UKIDSS (NIR), Spitzer/SpIES (MIR), Herschel (FIR), FIRST (Radio)
 - __Astrometry__: Gaia (proper motion and parallax); NOIRLab Source Catalog (NSC) DR2 (proper motion)
-- __Time Domain__: SDSS light curves
+- __Time Domain__: SDSS light curves, various variability metrics (see [here](https://github.com/RichardsGroup/AGN_DataChallenge/blob/main/docs/04_LC_features.ipynb))
 
 #### _XMM-LSS_ (QSOs, stars, galaxies)
 - __Labels__: XMM-SERVS(X-ray), SDSS (spectra)
