@@ -1,4 +1,8 @@
 # LSSTC AGN Data Challenge
+**Sep-24-2021**
+
+Updated the class label for 849 `Gal` objects that are also consistent with being a Seyfert or LINER (based on the 'subclass' parameter of their SDSS spectra) to `Agn`. 
+
 **Sep-9-2021**
 
 The submission deadline has been extended to **_Oct-15-2021_**! Stay tuned for the submission procedure.
