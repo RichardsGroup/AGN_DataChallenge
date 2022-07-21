@@ -1,7 +1,7 @@
 # LSSTC AGN Data Challenge
 **Jul-21-2022**
 
-The data challenge data sets have been made publicly available on Zenodo @ 10.5281/zenodo.6878414
+The data challenge data sets have been made publicly available on Zenodo @ [10.5281/zenodo.6878414](https://doi.org/10.5281/zenodo.6878414)
 
 **Sep-24-2021**
 
