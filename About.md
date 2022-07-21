@@ -59,5 +59,5 @@ The class labels are assigned using the following methods:
 - Veronique Buat: Herschel
 - Qingling Ni: [XMM-SERVS](https://personal.psu.edu/wnb3/xmmservs/xmmservs.html)
 - Matthew Temple: UKIDSS
-- Raphael Shirley & Mandra Banerji: HSC/VISTA jointly processed catalog
+- Raphael Shirley & Manra Banerji: HSC/VISTA jointly processed catalog
 - Feige Wang & Jinyi Yang: High z QSO catalog

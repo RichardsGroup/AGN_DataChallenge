@@ -1,4 +1,8 @@
 # LSSTC AGN Data Challenge
+**Jul-21-2022**
+
+The data challenge data sets have been made publicly available on Zenodo @ 10.5281/zenodo.6878414
+
 **Sep-24-2021**
 
 Updated the class label for 849 `Gal` objects that are also consistent with being a Seyfert or LINER (based on the 'subclass' parameter of their SDSS spectra) to `Agn`. 
