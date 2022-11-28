@@ -1,3 +1,6 @@
+# mac
+.DS_Store
+
 # data dir
 data/*/*
 !data/*/README.md
