@@ -18,7 +18,7 @@ The submission deadline has been extended to **_Oct-15-2021_**! Stay tuned for t
 ---
 This repository hosts information for the LSSTC AGN Data Challenge 2021 (PI: Gordon Richards). A github page is available at [here](https://richardsgroup.github.io/AGN_DataChallenge/). More (basic) information about this data challenge and the released dataset can be found at [About.md](About.md).
 
-The dataset released for this data challenge is hosted on SciServer. To participate in this data challenge using the released dataset, please follow the steps listed below:
+~~The dataset released for this data challenge is hosted on SciServer~~ **The most up to date version of this dataset is on Zenodo (see above).** To participate in this data challenge using the released dataset, please follow the steps listed below:
 1. Set up an account on [SciServer](https://www.sciserver.org/)
 2. Fill out this google [form](https://forms.gle/Eq689gqNMvb7QwQk8) and then we will send you an invitation to join the `Drexel_LSST` group
 4. Accept our invitation, see [here](setup/sciserver.pdf) for an example invitation
